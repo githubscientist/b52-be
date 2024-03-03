@@ -1,8 +1,5 @@
-// import express
-const express = require('express');
-
-// create a server
-const app = express();
+// import express app
+const app = require('./server');
 
 // import mongoose
 const mongoose = require('mongoose');
@@ -18,7 +15,7 @@ console.log('Connecting to the database...');
 //     });
 
 // connect to the database on the cloud
-mongoose.connect('mongodb+srv://sathishdatascientist:Guvi2023@cluster0.2r9mjwk.mongodb.net/')
+mongoose.connect('mongodb+srv://sathishdatascientist:Guvi2023@cluster0.2r9mjwk.mongodb.net/b52db')
     .then(() => {
         console.log('Connected to the database');
         // start the server and listen to the port 3001
