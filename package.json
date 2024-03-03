@@ -1,0 +1,23 @@
+{
+  "name": "b52-be",
+  "version": "1.0.0",
+  "description": "This is the backend repository for the notes application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubscientist/b52-be.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "Sathish Gnanaprakasam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/githubscientist/b52-be/issues"
+  },
+  "homepage": "https://github.com/githubscientist/b52-be#readme"
+}
